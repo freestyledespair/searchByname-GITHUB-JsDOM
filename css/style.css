@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/belta');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Belta Bold', sans-serif;
+    padding: 30px;
+    text-align: center;
+    color: rgb(37, 185, 185);
+    background: url(../img/155872-github-logo-azure-aqua-turquoise-x750.jpg);
+    background-size: cover;
+}
+
+.title {
+    font-size: 80px;
+}
+
+#form {
+    position: absolute;
+}
+
+#inp {
+    position: relative;
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+#btn {
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff
+}
+
+#btn:hover {
+    background: #ff5722;
+}
+
+.follow {
+    text-decoration: underline;
+    color: red;
+}
+
+#inp {
+    margin-top: 20px;
+}
+
+.output {
+    width: 100%;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px rgb(21, 22, 21);
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid rgb(33, 123, 129);
+    border-radius: 10em;
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(244, 234, 220);
+}
+
+.github {
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: brown;
+    font-weight: bold;
+}
